@@ -1,5 +1,5 @@
-streamlit
+streamlit=1.12.2
 time
-tensorflow
-numpy
-opencv-python
+tensorflow=2.10.0
+numpy=1.23.3
+opencv-python=4.6.0.66
