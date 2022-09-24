@@ -9,7 +9,7 @@ st.title("Feed")
 
 FRAME_WINDOW = st.image([])
 camera = cv2.VideoCapture(0)
-l='model.json'
+l='model1.h5'
 model2 = tf.keras.models.load_model(l)
 while True:
     _, frame1 = camera.read()
