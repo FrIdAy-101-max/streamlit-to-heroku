@@ -5,6 +5,7 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.keras. preprocessing import image
 import cv2
+import tensorflow_hub as hub
 st.title("Feed")
 
 FRAME_WINDOW = st.image([])
